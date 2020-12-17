@@ -1,0 +1,159 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+body {
+    background: #d9dbdd;
+    color: #7f8db0;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    background: #fff;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    padding: 0 50px;
+    /* display: flex; */
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+.navbar .logo a{
+    font-size: 20px;
+    font-family: Impact, 'Bold';
+    color: black;
+    font-weight: 700%;
+
+}
+
+.logo1 {
+    color: red;background-color: #7f8db0;;width: 110px;padding: 10px;
+}
+
+.navbar_right {
+    display: flex; 
+     float: right; 
+     margin-left: 50px;
+     /* right: 100px; */
+     text-decoration: none;
+}
+
+.navbar_right img {
+    width: 30px;
+    margin-left: 30px;
+}
+
+.navbar_right .icon_wrap{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar_right .notifications .icon_wrap {
+    font-size: 30px;
+}
+
+.navbar_right .notifications,
+.navbar_right .profile {
+    position: relative;
+    /* margin:  0 10px; */
+    
+}
+
+ .navbar_right .profile .search-icon {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.navbar_right .profile .search-icon input {
+    height: 75%;
+    width: 40%;
+    /* border: none; */
+    outline: none;
+    padding: 0 10px;
+    color: rgb(250, 245, 245);  
+    font-size:16px ; 
+    border-radius: 5px 0 0 5px;
+}
+ 
+
+.vertical {
+    background: white;
+    height: 100%; 
+    padding: 50px;
+    margin-right: 75rem;
+    /* margin-left: 10px; */
+    display: flex; 
+    box-sizing: content-box;
+    font-size: 50px;
+}
+
+.vertical .ver_nav .nav-item {
+    font-style: oblique;
+    color: black;
+}
+.vertical .ver_nav .nav-item:hover {
+    color: red;
+}
+ 
+
+ .CustomerTable {
+    margin-left: 350px;
+    background-color: white;
+    margin-top: -800px;
+    border-radius: 20px;
+    padding: 40px;
+    color: black;
+     
+ }
+ .c1 {
+     color: black;
+     font-style: normal;
+     font-family: Impact, 'Bold';
+ }
+
+ .table {
+    margin-top: 30px;
+    width: 100%;
+ }
+
+
+ .subscribecolor{
+    background-color: aqua;
+    border-radius: 6px;
+ }
+
+.arrow {
+    float: right;
+}
+.filter-icon1{
+    padding-left: ;padding-left: 170px;
+}
+
+.btn {
+    border-color: rgb(250, 245, 245);
+    background-color: rgb(179, 174, 174);
+    color: red;
+    
+}
+.p1 {
+    color: rgb(15, 15, 241);
+}
+
+
+
